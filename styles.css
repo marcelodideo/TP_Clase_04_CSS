@@ -1,0 +1,145 @@
+    p {
+        color:black;
+    }
+    
+    p1 {
+        color:coral;
+    }
+
+    pf {
+        text-align: center;
+        color:black;
+    }
+    
+    pArtNormal {
+         color:black;
+    }
+
+    body {
+        /*asi le digo que no tenga ningun pixel si no me rmpia el posicionamiento de */
+        padding: 0px;
+        margin: 0px;
+    }
+
+    article {
+        /*aca sollo defino posiciones por eso no le agrego estilos. Estilos lo manejamos con selectores de clases*/
+        width: 90%;
+        padding: 30px;
+    }
+    
+    main
+    {
+        float: right;
+        width: 78%;
+    }
+    
+
+    header {
+        padding: 5px;
+        display: flex;
+    }
+
+    aside {
+        width: 18%;
+        float: left;
+    }
+
+    nav {
+        width: 100%;
+        float: left;
+        background-color: #af0c71;
+    }
+
+    
+    
+    footer {
+        padding: 10px;
+        clear: both;
+        display: flex;
+        font-family: Arial;
+        text-align: center;
+        display: flex;
+        background-color: #c7bdc4;
+        border-radius: 10px;
+        border-style:solid;
+        border-color:#af0c71;
+    }
+    
+    .container {
+        display: flex;
+        text-align: center;
+        background-color: #dccfd7;
+    }   
+    
+    .footerText{
+        text-align: center;
+        display: flex;
+    }   
+
+    .menu {
+        width: 95%;
+        float: left;
+        background-color: #4c8a23;
+        border-left: 12px solid rgb(155, 13, 13);
+        padding: 12px;
+    }
+
+    .menu {
+        display: flex;
+        text-align: left;
+        background-color: #c7bdc4;
+        border-radius: 5px;
+        border-style:solid;
+        border-color: rgb(143, 28, 172);
+        font-family: Arial;
+    }    
+
+    .article{
+        padding: 3%;
+        font-style: normal;
+        font-family: Arial;
+        border-radius: 5px;
+        border-style:solid;
+        border-color:#af0c71;
+    }
+
+    .articleList{
+        font-style: normal;
+        font-family: Arial;
+        color:cornflowerblue;
+    }
+
+    .articleTitle{
+        font-style: normal;
+        font-family: Arial;
+        color: #4c8a23;
+    }
+
+    .header{
+        background-color: #cfd8dc;
+        display: flex;
+        text-align: left;
+        background-color: #c7bdc4;
+        font-family: Arial;
+        border-radius: 5px;
+        border-style:solid;
+        border-color:#af0c71;
+
+    }
+
+    .hyperLinkVerde{
+        font-style: normal;
+        font-family: Arial;
+        color: #4c8a23;
+    }
+
+    .aside{
+        background-color: #238a81;
+        border-left: 1px solid rgb(193, 206, 7); 
+        border-radius: 15px;
+        border-color: aqua;
+    }
+
+    .p1UnderLine{
+        color:coral;
+    }
